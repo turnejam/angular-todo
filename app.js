@@ -13,4 +13,5 @@ function TodoController() {
   this.deleteTask = (index) => {
     this.tasks.splice(index, 1);
   };
+
 }
